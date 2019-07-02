@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4263aeb-9a85-45e0-8362-16ece85fd641" name="Default Changelist" comment="unit2_1_1">
+      <change afterPath="$PROJECT_DIR$/cucumber.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/volume_screen_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/volume_screen.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/area_screen.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/area_screen.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/step_definitions/area_screen_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/area_screen_steps.rb" afterDir="false" />
@@ -139,7 +143,7 @@
       <workItem from="1561528130669" duration="406000" />
       <workItem from="1561530554215" duration="4407000" />
       <workItem from="1561612908709" duration="172000" />
-      <workItem from="1562060305944" duration="3735000" />
+      <workItem from="1562060305944" duration="3818000" />
     </task>
     <task id="LOCAL-00001" summary="unit2_1">
       <created>1561120783764</created>
@@ -152,7 +156,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18011000" />
+    <option name="totallyTimeSpent" value="18094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -165,9 +169,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1224" y="65" width="1716" height="974" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10872162" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10872162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -180,7 +183,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49779087" weight="0.32993197" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49342892" visible="true" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49342892" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5065711" side_tool="true" visible="true" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
