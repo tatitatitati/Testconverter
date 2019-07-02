@@ -65,4 +65,5 @@ end
 
 When(/^I select "([^"]*)" from left column$/) do |value|
   find_element(id: "radio_group_from").find_element(xpath: "//android.widget.RadioButton[@text='#{value}']").click
+
 end
