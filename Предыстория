@@ -1,0 +1,11 @@
+Предыстория: Не запускались тесты, просила у всех помощи, но никто так и не помог. Ставила и на Мак, и на Винду. 
+Последние тесты прошли, потому что я помогла(кликнула вручную на кнопку Меню).
+
+Основная ошибка 
+ARN Selenium [DEPRECATION] Selenium::WebDriver::Error::TimeOutError is deprecated. Use Selenium::WebDriver::Error::TimeoutError (ensure the driver supports W3C WebDriver specification) instead.
+    And I land on Area screen      # features/step_definitions/area_screen_steps.rb:9
+      An element could not be located on the page using the given search parameters. (Selenium::WebDriver::Error::NoSuchElementError)
+      NoSuchElementError: An element could not be located on the page using the given search parameters.
+          at AndroidDriver.helpers.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+      ./features/step_definitions/area_screen_steps.rb:10:in `/^I land on Area screen$/'
+      features/volume_screen.feature:7:in `And I land on Area screen'\\
