@@ -8,10 +8,10 @@ Background:
 #    When I click on Got it button
 #    Then  I land on Area screen
 
-  @wip
+
   Scenario: User is able to swap values
       Given I see "Sq Kilometre" in From header
-      And I see "Sq Kilometre" in To header
+      And I see "Sq Metre" in To header
       When I click on Swap button
       Then I see "Sq Metre" in From header
       And I see "Sq Kilometre" in To header
@@ -27,7 +27,7 @@ Background:
      |2     |2000000|
      |3     |3000000|
 
-@wip
+
   Scenario: User is able to use soft keyboard to enter values
     Given I click on Clear button
     When I click on From field
@@ -39,3 +39,13 @@ Background:
       When I select "Hectare" from left column
       Then I see "Hectare" in From header
       And I get "10000" in To field
+
+  @wip
+  Scenario Outline: User is able to select units and get result
+    When I select "<target>" to From field
+    Then I get "<result>" in To field
+    Examples:
+      |target|result|
+      |Sq Metre|1|
+      |Sq Centimetre|0.0001|
+      |Hectare|10000|
